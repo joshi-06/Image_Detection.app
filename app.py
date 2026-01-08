@@ -1,7 +1,8 @@
 import streamlit as st
-from ultralytics import YOLO
-from PIL import Image
 import numpy as np
+from PIL import Image
+import cv2
+from ultralytics import YOLO
 
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="YOLO11 Object Detection", page_icon="🎯", layout="wide")
